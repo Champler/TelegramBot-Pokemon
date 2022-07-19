@@ -1,7 +1,7 @@
 import requests
 
-import telebot # Importamos las librería
-TOKEN = "5355701474:AAFK2b0sdR8T4Qeftc84DmhxBZoQ1t5C1t8" # Ponemos nuestro Token generado con el @BotFather
+import telebot 
+
 bot = telebot.TeleBot(TOKEN) 
 
 @bot.message_handler(commands=['start', 'help'])
